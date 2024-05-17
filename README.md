@@ -17,3 +17,5 @@ or Run by docker compose
 
 test
 
+docker build -t node-app:latest .
+docker run -d -p 8000:8000 node-app:latest
